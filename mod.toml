@@ -1,0 +1,10 @@
+id = "time_overflow_fix"
+name = "System Time Overflow Fix"
+version = "1.0.0"
+kyubu = "^1.1"
+sides = ["client"]
+authors = ["coremaze (original), ported"]
+description = "Fixes bugs (server connection, upside-down particles) caused by timeGetTime overflow."
+
+[native]
+client = "bin/time_overflow_fix.dll"
