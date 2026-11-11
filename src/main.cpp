@@ -5,7 +5,7 @@
 // at the moment the game starts, so the bug appears after ~24 days of *game* time instead of PC uptime.
 //
 // The old mod overwrote the game's import slot; Kyubu's hook_import does the same thing and can remove it again.
-#include "../../common.hpp"
+#include "../common.hpp"
 
 #include <windows.h>
 
